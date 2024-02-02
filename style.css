@@ -7,6 +7,7 @@ border: border-box;
   height: 60px;
   background-color: #0f1111;
   color: white;
+  display:flex;
 }
 .nav-logo{
   height: 50px;
@@ -24,4 +25,14 @@ border: border-box;
 .border:hover{
   border: 1.5px solid white;
   cursor: pointer;
+}
+
+.address-1{
+  color:#cccccc;
+}
+.nav-country{
+  display: flex;
+}
+.address-2{
+  color:white;
 }
