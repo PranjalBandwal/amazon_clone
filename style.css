@@ -18,3 +18,10 @@ border: border-box;
   width: 100px;
   background-size: cover;
 }
+.border{
+  border: 1.5px solid transparent;
+}
+.border:hover{
+  border: 1.5px solid white;
+  cursor: pointer;
+}
