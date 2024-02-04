@@ -51,6 +51,10 @@
   height: 40px;
   border-radius: 4px;
 }
+
+.nav-searchbar:hover {
+  border: 2px solid orange;
+}
 .search-select {
   width: 50px;
   text-align: center;
@@ -81,25 +85,78 @@ i only set width of .nav-select class and .nav-icon and i want search-input spre
   font-size: 1.2rem;
   color: #0f1111;
 }
-.box-4-1 {
-  font-size: 12px;
-  margin-left: 5px;
+
+span {
+  font-size: 0.75rem;
 }
-.box-4-2 {
-  font-weight: bold;
-  font-size: 14px;
-  color: #f3f3f3;
-  background-color: #0f1111;
-  border: none;
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
 }
 
-.box-5-1 {
-  font-size: 12px;
+.nav-cart i {
+  font-size: 30px;
 }
-.box-5-2 {
-  font-weight: bold;
-  font-size: 14px;
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.panel {
+  height: 40px;
+  background-color: #232f2e;
+  color: #ffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menue {
+  width: 58px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  /* margin-left: 15px; */
+}
+.menue i {
+  font-size: 18px;
+}
+.anchor {
+  /* margin-left: 5px; */
+  width: 70%;
+  font-size: 0.85rem;
+}
+.anchor a {
+  text-decoration: none;
   color: #f3f3f3;
-  background-color: #0f1111;
-  border: none;
+  margin-left: 15px;
+}
+.deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.hero-section {
+  background-image: url(assets/hero_image.jpg);
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-msg {
+  width: 90%;
+  background-color: white;
+  font-size: 0.85rem;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.hero-msg a {
+  color: #007185;
+}
+.hero-msg a:hover {
+  color: #007185;
+  text-decoration: underline;
 }
