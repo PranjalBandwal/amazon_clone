@@ -81,3 +81,25 @@ i only set width of .nav-select class and .nav-icon and i want search-input spre
   font-size: 1.2rem;
   color: #0f1111;
 }
+.box-4-1 {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.box-4-2 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #f3f3f3;
+  background-color: #0f1111;
+  border: none;
+}
+
+.box-5-1 {
+  font-size: 12px;
+}
+.box-5-2 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #f3f3f3;
+  background-color: #0f1111;
+  border: none;
+}
