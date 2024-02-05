@@ -194,3 +194,24 @@ span {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+.f1 {
+  height: 20px;
+  background-color: #232f2e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.f1 span {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f1111;
+  color: white;
+}
