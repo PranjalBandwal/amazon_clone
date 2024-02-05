@@ -194,24 +194,43 @@ span {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
-.f1 {
+footer {
+  margin-top: 15px;
+}
+.foot-panel1 {
   height: 20px;
-  background-color: #232f2e;
+  background-color: #37475a;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px 0;
 }
-.f1 span {
+.foot-panel1 span {
   font-size: 0.85rem;
   font-weight: 500;
 }
 .footer-link {
+  height: 300px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #0f1111;
+  justify-content: space-evenly;
+  background-color: #222f3d;
   color: white;
+}
+ul {
+  margin-top: 23px;
+}
+ul p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddd;
+}
+ul a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
